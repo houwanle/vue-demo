@@ -1,24 +1,8 @@
 # vue-demo
 
-## Project setup
-```
-npm install
-```
+## 简介
+工作中遇到的一些前端功能的实现和总结
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 所用技术
+- iView UI: 4.X;
+- 
