@@ -1,4 +1,4 @@
-import Main from '@/views/Main.vue';
+import Main from "@/views/Main.vue";
 
 
 // 不作为Main组件的子页面展示的页面单独写，如下
@@ -15,16 +15,22 @@ import Main from '@/views/Main.vue';
 // 作为Main组件的子页面展示但是不在左侧菜单显示的路由写在otherRouter里
 export const otherRouter = {
   path: '/',
-  name: 'otherRouter',
+  // name: 'otherRouter',
   redirect: '/home',
   component: Main,
   children: [
     {
       path: 'home',
-      title: '首页',
-      name: 'home_index',
+      // title: '首页',
+      name: '首页',
       component: () => import('@/views/home/home.vue')
     },
+    {
+      path: 'Tree',
+      name: '树结结构',
+      component: () => import('../views/Tree.vue')
+    },
+    
   ]
 }
 

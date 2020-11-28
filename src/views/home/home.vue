@@ -1,6 +1,12 @@
-<!-- 主页 -->
+<!-- 首页 -->
 <template>
-  <div>这是首页</div>
+  <div class="HomePage">
+    <Row>
+      <Col span="24">
+          <h1>WELCOME !</h1>
+      </Col>
+    </Row>
+  </div>
 </template>
 
 <script>
