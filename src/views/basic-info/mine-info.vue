@@ -1,34 +1,9 @@
-<!-- 首页 -->
-<style lang="less">
-.welcome {
-  .ivu-card-body {
-    height: 100%
-  }
-}
-
-.home-card {
-   padding: 0;
-  .ivu-card-body {
-    padding: 0;
-  }
-}
-
-.home-card_1 {
-  background-image: url('../../images/home.png');
-  background-size: cover;
-  background-position: center;
-}
-</style>
+<!-- 个人信息 -->
 <template>
-  <div class="welcome">
+  <div class="contentCommon">
     <Row>
-      <Col>
-        <Card class='home-card'>
-          <div style="display:flex;justify-content:center;align-items:center;height:90%;">
-            <img class="home-img" src="../../images/home.png" alt="">
-          </div>
-          <!-- <img class="home-img" src="../../images/home.png" alt=""> -->
-        </Card>
+      <Col span="24">
+        <div>这里是个人主页，什么都没有，哈哈哈~</div>
       </Col>
     </Row>
   </div>

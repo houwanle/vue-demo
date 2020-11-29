@@ -3,7 +3,7 @@
 </style>
 
 <template>
-  <div class="layout">
+  <div>
     <Layout>
       <Header></Header>
       <Layout>
@@ -15,7 +15,7 @@
           <router-view />
         </Content>
       </Layout>
-      <Footer></Footer>
+      <!-- <Footer></Footer> -->
     </Layout>
   </div>
 </template>

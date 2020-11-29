@@ -26,9 +26,24 @@ export const otherRouter = {
       component: () => import('@/views/home/home.vue')
     },
     {
-      path: 'Tree',
-      name: '树结结构',
-      component: () => import('../views/Tree.vue')
+      path: 'basic-info/mine-info',
+      name: '个人信息',
+      component: () => import('@/views/basic-info/mine-info.vue')
+    },
+    {
+      path: 'form/dynamic-form',
+      name: '动态表单',
+      component: () => import('@/views/form/dynamic-form.vue')
+    },
+    {
+      path: 'tree/iview-tree',
+      name: 'iview-tree',
+      component: () => import('@/views/tree/iview-tree.vue')
+    },
+    {
+      path: 'map/echart-map',
+      name: 'echart-map',
+      component: () => import('@/views/map/echart-map.vue')
     },
     
   ]
