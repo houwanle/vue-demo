@@ -41,6 +41,11 @@ export const otherRouter = {
       component: () => import('@/views/tree/iview-tree.vue')
     },
     {
+      path: 'tree/ant-design-tree',
+      name: '树形表格',
+      component: () => import('@/views/tree/ant-design-tree.vue')
+    },
+    {
       path: 'map/echart-map',
       name: 'echart-map',
       component: () => import('@/views/map/echart-map.vue')

@@ -64,6 +64,11 @@ export default {
               innerText: 'iView-Tree',
               linkUrl: '/tree/iview-tree'
             },
+            {
+              name: '2-2',
+              innerText: '树形表格',
+              linkUrl: '/tree/ant-design-tree'
+            },
           ]
         },
         {
